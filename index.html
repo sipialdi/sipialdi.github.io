@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldi Renaldi | Web Developer Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper nav-container">
+            <a href="index.html"><div class="logo"><img src="images/logo.png" alt="Sipialdi Logo"></div></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#pengalaman"><i class="fa-solid fa-chart-bar"></i> Pengalaman</a></li>
+                    <li><a href="#tentang-saya"><i class="fa-solid fa-circle-info"></i> Tentang</a></li>
+                    <li><a href="#certificate"><i class="fa-solid fa-certificate"></i> Sertifikasi</a></li>
+                    <li><a href="#projek-saya"><i class="fa-solid fa-check-double"></i> Projek Saya</a></li>
+                </ul>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars icon-bars"></i>
+                <i class="fa-solid fa-xmark icon-close"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-opacity"></div>
+        <div class="header-jumbotron">
+            <h4>sipialdi.id</h4>
+            <h5>Web Portofolio<br>Aldi Renaldi</h5>
+            <p>Selamat datang, silahkan jelajahi</p>
+            <a href="https://wa.me/082119707093" class="button button-xl">Hubungi Saya Disini</a>
+        </div>
+    </header>
+
+    <section id="statistic">
+        <div class="wrapper">
+            <div>
+                <p><i class="fa-solid fa-gear"></i>3+</p>
+                <small>&nbsp;Tahun Pengalaman</small>
+            </div>
+            <div><p><i class="fa-solid fa-certificate"></i>15+</p>
+                <small>&nbsp;Sertifikasi</small></div>
+            <div><p><i class="fa-solid fa-check-double"></i>100+</p>
+                <small>&nbsp;Projek Diselesaikan</small></div>
+        </div>
+    </section>
+
+    <section id="pengalaman">
+        <div class="wrapper">
+            <h4>Pengalaman <span>Kerja</span></h4>
+            <p>Berikut ini merupakan rincian pengalaman kerja yang pernah dijalani</p>
+            
+            <div class="grid" id="experience-grid"></div>
+
+            <div class="pagination" id="exp-pagination">
+                <button id="prev-exp"><i class="fa-solid fa-chevron-left"></i></button>
+                <div id="exp-page-numbers"></div>
+                <button id="next-exp"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang-saya">
+        <div class="wrapper">
+            <h4>Tentang <span>Saya</span></h4>
+            <p>Seorang fulltime freelancer dengan antusias terhadap teknologi informasi</p>
+            <div>
+                <div class="photo"><img src="images/profile.png" alt="Aldi Renaldi"></div>
+                <div class="desc">
+                    <p><b>Profesional IT | Founder Konstantax Technology</b></p>
+                    <p>Lulusan Sistem Informasi UNIKU dengan spesialisasi IT Support dan Manajemen Data. Ahli dalam digitalisasi sistem medis serta pengembangan database MySQL.</p>
+                    <p>Sejak tahun 2023, aktif mendirikan dan mengembangkan Konstantax Technology untuk menghadirkan solusi digital inovatif. Didukung sertifikasi teknis yang kuat, saya berfokus pada optimalisasi sistem dan efisiensi teknologi informasi di skala perusahaan.</p>
+                    <div class="social">
+                        <a href="#" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" title="Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" title="Github"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#" title="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificate">
+        <div class="wrapper">
+            <h4>Sertifikasi</h4>
+            <p>Sertifikasi Pengalaman dan Keahlian</p>
+            <div class="grid" id="certificate-grid"></div> 
+            
+            <div class="pagination" id="pagination">
+                <button id="prev-page"><i class="fa-solid fa-chevron-left"></i></button>
+                <div id="page-numbers"></div>
+                <button id="next-page"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projek-saya">
+        <div class="wrapper">
+            <h4>Projek <span>Saya</span></h4>
+            <p>Beberapa Projek Yang Telah Diselesaikan</p>
+            <div class="slider-container">
+                <button class="nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="slider-content" id="project-slider"></div>
+                <button class="nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">&copy; 2026 KONSTANTAX Technology. All Right Reserved.</div>
+    </footer>
+
+    <div id="certificateModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img id="imgModal" class="modal-content">
+        <div id="caption"></div>
+    </div>
+
+    <div id="experienceModal" class="modal">
+        <div class="modal-content-warapper">
+            <span class="close-experience">&times;</span>
+            <div id="experienceDetail"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
