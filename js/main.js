@@ -61,7 +61,7 @@ const allProjects = [
 ];
 
 const allExperiences = [
-    { id: "klinik", img: "images/pengalaman/p1.png", company: "Klinik Max Dental Center", role: "Admin & IT Support", period: "Jul 2025 - Jan 2026" },
+    { id: "klinik", img: "images/pengalaman/p1.webp", company: "Klinik Max Dental Center", role: "Admin & IT Support", period: "Jul 2025 - Jan 2026" },
     { id: "putri-intan", img: "images/pengalaman/p2.png", company: "CV Putri Intan Kencana", role: "Pengembang Web", period: "Okt 2022 - Feb 2023" },
     { id: "mbkm", img: "images/pengalaman/p3.png", company: "MBKM Kampus Mengajar 3", role: "Asisten Pengajar", period: "Jan 2022 - Jul 2022" }
 ];
