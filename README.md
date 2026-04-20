@@ -26,7 +26,7 @@ Kamu bisa melihat portofolio lengkap saya di:
 ---
 
 ## 📫 Connect with Me
-- **LinkedIn:** [linkedin.com/in/aldirenaldi](https://linkedin.com/in/arenaldi)
+- **LinkedIn:** [linkedin.com/in/arenaldi](https://linkedin.com/in/arenaldi)
 - **Instagram:** [@konstantax.tech](https://instagram.com/konstantax.tech)
 - **WhatsApp:** [+62 821-1970-7093](https://wa.me/6282119707093)
 
