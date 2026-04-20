@@ -100,7 +100,7 @@ function displayExperiences(page) {
     paginatedItems.forEach(exp => {
         grid.innerHTML += `
         <div class="item">
-            <img src="${exp.img}" alt="${exp.company}">
+            <img src="${exp.img}" alt="${exp.company}" loading="lazy">
             <div class="item-detail">
                 <p>${exp.company} <br> - ${exp.role}</p>
                 <div>
@@ -166,7 +166,7 @@ function displayCertificates(page) {
         grid.innerHTML += `
         <div class="item">
             <div class="item-detail">
-                <img src="images/sertifikasi/${cert.img}" alt="${cert.title}">
+                <img src="images/sertifikasi/${cert.img}" alt="${cert.title}" loading="lazy">
                 <div>
                     <small><i class="fa-solid fa-address-card"></i> ${cert.title}</small>
                     <a href="javascript:void(0)" class="button btn-lihat" onclick="openCertModal('images/sertifikasi/${cert.img}', '${cert.title}')">
@@ -238,7 +238,9 @@ window.openCertModal = function(imgSrc, title) {
 window.openExpModal = function(id) {
     const data = dataPengalaman[id];
     if (data) {
-        let imagesHtml = data.images.map(img => `<img src="${img}" alt="Gallery">`).join('');
+        let imagesHtml = data.images.map(img => 
+            `<img src="${img}" alt="Gallery" loading="lazy" class="modal-gallery-img">`
+        ).join('');
         expDetail.innerHTML = `
             <h3 style="color:#00ADB5; margin-bottom:10px;">${data.title}</h3>
             <p style="color:#eee; line-height:1.6; margin-bottom:20px; text-align:justify;">${data.desc}</p>
