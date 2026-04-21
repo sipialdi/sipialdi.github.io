@@ -100,7 +100,7 @@ button.hamburger-menu > i.icon-close {
 
 /* --- Header / Hero --- */
 header {
-    background: url("../images/hero.jpg");
+    background: url("../images/hero.webp");
     height: 100vh;
     background-position: center center;
     background-size: cover;
