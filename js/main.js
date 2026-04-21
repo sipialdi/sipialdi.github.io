@@ -23,47 +23,50 @@ const dataPengalaman = {
     "klinik": {
         title: "Klinik Max Dental Center - Admin & IT Support",
         desc: "(1) Berhasil melakukan transisi dari sistem manual ke digital dengan mengelola dokumentasi medis secara akurat untuk mendukung pemenuhan standar akreditasi klinik. (2) Mengoptimalkan alur sistem pendaftaran pasien yang berdampak langsung pada peningkatan efisiensi operasional harian klinik. (3) Memastiikan kelancaran operasional di Klinik dengan menangani pemeliharaan perangkat IT dan memberikan dukungan teknis harian bagi staf klinik.",
-        images: ["images/pengalaman/klinik/k1.png","images/pengalaman/klinik/k2.png","images/pengalaman/klinik/k3.png","images/pengalaman/klinik/k4.png"]
+        images: ["images/pengalaman/klinik/k1.webp","images/pengalaman/klinik/k2.webp","images/pengalaman/klinik/k3.webp","images/pengalaman/klinik/k4.webp"]
     },
     "putri-intan": {
         title: "CV Putri Intan Kencana - Pengembang Web",
         desc: "(1) Merancang dan membangun aplikasi web menggunakan bahasa pemrograman PHP untuk mengotomisasi sistem penjualan perusahaan. (2) Mengintegrasikan basis data MySQL yang memungkinkan perusahaan melacak stok barang dan histori secara real-time. (3) Bekerja sama dengan staf operasional untuk memastikan antarmuka aplikasi (UI) intuitif dan mudah digunakan dalam aktivitas kerja sehari-hari.",
-        images: ["images/pengalaman/putri-kencana/pk1.png","images/pengalaman/putri-kencana/pk2.png","images/pengalaman/putri-kencana/pk3.png","images/pengalaman/putri-kencana/pk4.png"]
+        images: ["images/pengalaman/putri-kencana/pk1.webp","images/pengalaman/putri-kencana/pk2.webp","images/pengalaman/putri-kencana/pk3.webp","images/pengalaman/putri-kencana/pk4.webp"]
     },
     "mbkm": {
         title: "MBKM Kampus Mengajar 3 - Asisten Pengajar",
         desc: "(1) Memimpin dan mengkoordinasikan kelompok mahasiswa dalam menyusun rencana pembelajaraan inovativ yang disesuaikan dengan kebutuhan sekolah. (2) Bertindak sebagai penghubung utama antara pihak sekolah, mahasiswa dan koordinator program untuk memastikan seluruh target pengabdian tercapai. (3) Menjalankan kegiatan pembelajaran kreatif yang dirancang untuk meningkatkan efektivitas edukasi bagi siswa di lingkungan sekolah tersebut..",
-        images: ["images/pengalaman/mbkm/mbkm1.png","images/pengalaman/mbkm/mbkm2.png","images/pengalaman/mbkm/mbkm3.png","images/pengalaman/mbkm/mbkm4.png"]
+        images: ["images/pengalaman/mbkm/mbkm1.webp","images/pengalaman/mbkm/mbkm2.webp","images/pengalaman/mbkm/mbkm3.webp","images/pengalaman/mbkm/mbkm4.webp"]
     }
 };
 
 const allCertificates = [
-    { img: 'jna.png', title: 'Administrator Jaringan Muda' },
-    { img: 'dms.jpg', title: 'Data Management Staff' },
-    { img: 'jwd.jpg', title: 'Pengembang Web Pratama' },
-    { img: 'html5.png', title: 'HTML5 Development App' },
-    { img: 'pjna.png', title: 'Pelatihan Junior Net Admin' },
-    { img: 'pdea.png', title: 'Pelatihan Digital Enterp Acc' },
-    { img: 'geept.png', title: 'Golden English EPT' },
-    { img: 'uept.png', title: 'Uniku English Proficiency Test' },
-    { img: 'toefl.png', title: 'TOEFL ITP Certificate' },
-    { img: 'bhd.png', title: 'Sertifikat BHD KEMENKES' },
-    { img: 'jwr.png', title: 'Juara 2 Lomba Video Pendek' },
-    { img: 'pnt.png', title: 'Panitia FKOMFEST 2021' },
+    { img: 'jna.webp', title: 'Administrator Jaringan Muda' },
+    { img: 'dms.webp', title: 'Data Management Staff' },
+    { img: 'jwd.webp', title: 'Pengembang Web Pratama' },
+    { img: 'html5.webp', title: 'HTML5 Development App' },
+    { img: 'pjna.webp', title: 'Pelatihan Junior Net Admin' },
+    { img: 'pdea.webp', title: 'Pelatihan Digital Enterp Acc' },
+    { img: 'geept.webp', title: 'Golden English EPT' },
+    { img: 'uept.webp', title: 'Uniku English Proficiency Test' },
+    { img: 'toefl.webp', title: 'TOEFL ITP Certificate' },
+    { img: 'bhd.webp', title: 'Sertifikat BHD KEMENKES' },
+    { img: 'jwr.webp', title: 'Juara 2 Lomba Video Pendek' },
+    { img: 'pnt.webp', title: 'Panitia FKOMFEST 2021' },
 ];
 
 const allProjects = [
-    { img: 'prjk1.png', title: 'Aplikasi Sistem Pakar Bioponik', category: 'Web Development' },
-    { img: 'prjk2.png', title: 'Aplikasi Prediksi Jurusan C45', category: 'Web Development' },
-    { img: 'prjk3.png', title: 'Aplikasi SIM FIFO', category: 'Web Development' },
-    { img: 'prjk4.png', title: 'Aplikasi Furniture CRM', category: 'Web Development' },
-    { img: 'prjk5.png', title: 'Aplikasi SPK SAW', category: 'Web Development' }
+    { img: 'prjk1.webp', title: 'Aplikasi Sistem Pakar Bioponik', category: 'Web Development' },
+    { img: 'prjk2.webp', title: 'Aplikasi Prediksi Jurusan C45', category: 'Web Development' },
+    { img: 'prjk3.webp', title: 'Aplikasi SIM FIFO', category: 'Web Development' },
+    { img: 'prjk4.webp', title: 'Aplikasi Furniture CRM', category: 'Web Development' },
+    { img: 'prjk5.webp', title: 'Aplikasi SPK SAW', category: 'Web Development' },
+    { img: 'prjk6.webp', title: 'Kamu, Alamku', category: 'Videoghraphy' },
+    { img: 'prjk7.webp', title: 'Ini Hidup', category: 'Videoghraphy' },
+    { img: 'prjk8.webp', title: 'Kembali', category: 'Videoghraphy' }
 ];
 
 const allExperiences = [
     { id: "klinik", img: "images/pengalaman/p1.webp", company: "Klinik Max Dental Center", role: "Admin & IT Support", period: "Jul 2025 - Jan 2026" },
-    { id: "putri-intan", img: "images/pengalaman/p2.png", company: "CV Putri Intan Kencana", role: "Pengembang Web", period: "Okt 2022 - Feb 2023" },
-    { id: "mbkm", img: "images/pengalaman/p3.png", company: "MBKM Kampus Mengajar 3", role: "Asisten Pengajar", period: "Jan 2022 - Jul 2022" }
+    { id: "putri-intan", img: "images/pengalaman/p2.webp", company: "CV Putri Intan Kencana", role: "Pengembang Web", period: "Okt 2022 - Feb 2023" },
+    { id: "mbkm", img: "images/pengalaman/p3.webp", company: "MBKM Kampus Mengajar 3", role: "Asisten Pengajar", period: "Jan 2022 - Jul 2022" }
 ];
 
 // --- FUNGSI HELPER SCROLL (Agar tidak loncat) ---
@@ -239,8 +242,7 @@ window.openExpModal = function(id) {
     const data = dataPengalaman[id];
     if (data) {
         let imagesHtml = data.images.map(img => 
-            `<img src="${img}" alt="Gallery" loading="lazy" class="modal-gallery-img">`
-        ).join('');
+            `<img src="${img}" alt="Gallery" loading="lazy" class="modal-gallery-img">`).join('');
         expDetail.innerHTML = `
             <h3 style="color:#00ADB5; margin-bottom:10px;">${data.title}</h3>
             <p style="color:#eee; line-height:1.6; margin-bottom:20px; text-align:justify;">${data.desc}</p>
